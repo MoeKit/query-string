@@ -1,0 +1,32 @@
+{
+  "name": "querystring",
+  "version": "1.0.0",
+  "description": "popular querystring api",
+  "homepage": "http://gitlab.alibaba-inc.com/animajs/querystring",
+  "author": "haibin.zhb@alipay.com",
+  "maintainers": [
+    "wanyan.wz@taobao.com",
+    "haibin.zhb@alipay.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.alibaba-inc.com/animajs/querystring.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "widget"
+  ],
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "expect": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    }
+  }
+}
