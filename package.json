@@ -1,5 +1,5 @@
 {
-  "name": "querystring",
+  "name": "query-string",
   "version": "1.0.0",
   "description": "popular querystring api",
   "homepage": "http://gitlab.alibaba-inc.com/animajs/querystring",
