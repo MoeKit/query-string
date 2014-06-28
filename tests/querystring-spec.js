@@ -132,7 +132,7 @@ var weirdObjects = [
 ];
 
 // Sets some bad thing, hia hia...
-Object.prototype['notExisted'] = 1;
+// Object.prototype['notExisted'] = 1;
 
 
 describe('QueryString.parse', function () {
