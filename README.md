@@ -5,6 +5,9 @@ This module provides utilities for dealing with query strings.
 
 ---
 
+[![Build Status](http://img.shields.io/travis/MoeKit/querystring.svg)](https://travis-ci.org/MoeKit/querystring)
+[![Coverage Status](http://img.shields.io/coveralls/MoeKit/querystring.svg)](https://coveralls.io/r/MoeKit/querystring?branch=master)
+
 
 It provides the following methods:
 
