@@ -170,6 +170,11 @@ describe('QueryString.parse', function () {
         expect(ex).not.to.be(undefined);
     });
 
+    it('should trim ^? and ^&', function() {
+        expect(qs.parse('?a=b&c=d').a).to.eql('b');
+        expect(qs.parse('&a=b&c=d').a).to.eql('b');
+    });
+
 });
 
 

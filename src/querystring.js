@@ -91,6 +91,9 @@ QueryString.parse = function (str, sep, eq) {
         return ret;
     }
 
+    // remove ^?
+    str = str.replace(/^\?/, '');
+
     var pairs = str.split(sep || '&');
     eq = eq || '=';
     var unescape = QueryString.unescape;
